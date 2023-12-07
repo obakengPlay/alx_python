@@ -1,5 +1,3 @@
-sentence = "At Holberton school, I learnt C!"
-
 def multiple_returns(sentence):
     
     
@@ -10,6 +8,6 @@ def multiple_returns(sentence):
 
 
 sentence = "Holberton"
-length, first = multiple_returns(sentence)
-print("Length: {:d} - First character: {}".format(length, first))
+length, first_char = multiple_returns(sentence)
+print("Length: {:d} - First character: {}".format(length, first_char))
 
