@@ -3,4 +3,4 @@ for i in range(10):
         print(f"{i}{j}", end=", " 
               if i != 5 
               or j != 9 
-              else "\n")
+              else "\n".format(i, i))
