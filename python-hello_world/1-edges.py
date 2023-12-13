@@ -6,4 +6,3 @@ print(word_first_3)
 print(word_last_2) 
 print(middle_word)
 wor = word_last_2 + word_first_3 + middle_word
-print(len(wor))
