@@ -1,6 +1,3 @@
-
-# import module 
-my_square_1 = __import__('0-square').Square 
 class Square: 
            def __init__(self, size=0): 
                if not isinstance(size, int): 
