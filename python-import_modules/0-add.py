@@ -1,9 +1,6 @@
-def add(a, b):
-   
-    return a + b
+from main_0 import add
 
 a = 1
 b = 2
 
-result = add(a, b)
-print(result)
+print("{:d} + {:d} ={:d}".format(a,b, add (a,b)))
