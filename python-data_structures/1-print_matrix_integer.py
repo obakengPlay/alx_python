@@ -1,5 +1,3 @@
-matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-
 def print_matrix_integer(matrix=[]):
     
     for row in matrix:
@@ -12,9 +10,3 @@ def print_matrix_integer(matrix=[]):
                 # Otherwise, print with a space after the element
                 print("{:d} ".format(row[i]), end="")
         print()  # Move to the next line after printing a row
-        
-
-print_matrix_integer(matrix)
-print("--")
-print_matrix_integer()
-
