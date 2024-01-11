@@ -8,7 +8,4 @@ def square_matrix_simple(matrix=[]):
     return test_matrix
 
 new_matrix = square_matrix_simple(matrix)
-
-print(new_matrix)
-print(matrix)
         
