@@ -1,7 +1,7 @@
 def no_c(my_string):
-    results = ""
+    result = ""
     for char in my_string:
-        if char not in 'cC':
-            results += char
-    return results 
+        if char != 'c' and char != 'C':
+            result += char
+    return result 
   
