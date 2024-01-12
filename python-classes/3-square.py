@@ -1,4 +1,14 @@
+"""
+    this is a class, nothing changes 
+    
+"""
+
 class Square:
+    
+    """
+    Squaring the number, class 
+    
+    """
     def __innit__(self,size=0):
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
