@@ -1,3 +1,5 @@
-add = __import__('0-main').add
+#0-sum.py 
 
-print(add(1,2))
+def sum(a, b): 
+
+    return a + b 
